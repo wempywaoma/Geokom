@@ -1,0 +1,21 @@
+program cerita beli baju
+implicit none
+! input harga baju
+real :: harga baju
+!input jumblah baju yang akan dibeli
+integer :: jumblah baju
+!input jumblah pengunjung yng sedang mencari baju
+intejer :: jumblah pengguna 
+!hitung total harga
+real :: total harga
+write(*,*) "masukan harga baju:$"
+read (*,*) harga baju
+write(*,*) " masukan jumblah baju yang akan dibeli:"
+real (*,*) jumblah baju
+write(*,*) "masukan jumbalah pengunjung yang sedang mencari baju:"
+real (*,*) jumblah pengguna
+! tampilkan cerita pendek dengan unsur aritmatika
+write(*,*) "ceriya pendek:"
+write(*,*) "ayo kita beli baju!"
+write(*,*) "di toko baju,terdapat ,",
+

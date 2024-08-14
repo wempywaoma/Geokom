@@ -1,0 +1,17 @@
+program pratikum_4
+implicit none
+intejer ::a,b,n,m,n
+parameter (n = 8,m = 100)
+intejer :: btotal,8
+btotal = b
+do i = 1,n
+btotal:: btotal + b
+write (*,*) 'hasil ke',i,'adalah',btotal
+end do
+a =1
+aa = a
+do i = 1,m
+aa = aa*a
+write (*,*)'hasil a pangkat',i,'adalah',aa
+end do
+end program pratikum_ 4
